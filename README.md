@@ -22,7 +22,7 @@ To get started with this project, follow the instructions below.
 ### Prerequisites
 
 - Node.js (v14.x or later recommended)
-- npm (v6.x or later recommended) or Yarn
+- npm (v6.x or later recommended)
 
 ### Setup
 
@@ -37,23 +37,13 @@ To get started with this project, follow the instructions below.
    ```bash
    npm install
    ```
-   or if you prefer Yarn:
-   ```bash
-   yarn install
-   ```
 
 ### Running the Application
 
 To start the application locally, use the following command:
 
 ```bash
-npm start
-```
-
-or with Yarn:
-
-```bash
-yarn start
+npm run dev
 ```
 
 This will start the development server, and you can view the application by navigating to `http://localhost:3000` in your web browser.
@@ -64,12 +54,6 @@ To build the application for production, run:
 
 ```bash
 npm run build
-```
-
-or with Yarn:
-
-```bash
-yarn build
 ```
 
 The production-ready build will be available in the `build` directory.
